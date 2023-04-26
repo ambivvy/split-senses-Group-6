@@ -1,11 +1,11 @@
 
-=== Mon Apr 17 17:53:46 2023
+=== Fri Apr 14 17:03:41 2023
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
 
 The following packages were added:
-  com.unity.ide.rider@3.0.15
+  com.unity.ide.rider@3.0.16
   com.unity.ide.visualstudio@2.0.16
   com.unity.ide.vscode@1.2.5
   com.unity.modules.ai@1.0.0
