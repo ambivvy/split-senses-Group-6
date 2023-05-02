@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class spike : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject Player;
+    public bool PlayerAlive;
 
 
-    // Update is called once per frame
+    void Start(){
+    PlayerAlive = Player.GetComponent<PlayerAttributes>().PlayerAlive;
+}
+    
 
-//private void OnCollisionEnter3D(Collision GameObject)
-//    {
-//        Destroy;
-//    }
-//
-//
+     //Start is called before the first frame update
+
+
+     //Update is called once per frame
+
+
+private void OnCollisionEnter3D(Collision Player){
+    PlayerAlive = false;
+}
+
 }
