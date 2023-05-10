@@ -368,11 +368,17 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/NewBehaviourScript.cs"
-"Assets/scripts/Finish.cs"
+"Assets/GameOver.cs"
+"Assets/scripts/EndMenu.cs"
 "Assets/scripts/follow.cs"
-"Assets/scripts/playerAttributes.cs"
+"Assets/scripts/NextLevel.cs"
+"Assets/scripts/Path.cs"
+"Assets/scripts/PlayerAttributes2.cs"
+"Assets/scripts/PlayerMovement.cs"
 "Assets/scripts/spike.cs"
+"Assets/scripts/StartMenu.cs"
+"Assets/scripts/Win.cs"
+"Assets/scripts/WorldGeneration.cs"
 -langversion:9.0
 
 /deterministic
